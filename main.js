@@ -1,7 +1,3 @@
-// import Swiper from "swiper";
-
-import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
-
 var swiper = new Swiper(".swiper", {
   grabCursor: true,
   speed: 500,
@@ -12,7 +8,5 @@ var swiper = new Swiper(".swiper", {
     sensitivity: 1,
   },
 });
-
-const swiper = document.querySelector(".swiper").swiper;
 
 swiper.enable();
